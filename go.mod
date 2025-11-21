@@ -1,4 +1,4 @@
-module github.com/chipmk/docker-mac-net-connect
+module github.com/achernev/docker-mac-net-connect
 
 go 1.24.0
 

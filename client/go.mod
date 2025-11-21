@@ -1,4 +1,4 @@
-module github.com/chipmk/docker-mac-net-connect/client
+module github.com/achernev/docker-mac-net-connect/client
 
 go 1.24.0
 
