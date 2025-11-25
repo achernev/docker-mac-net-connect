@@ -1,5 +1,5 @@
-PROJECT         := github.com/achernev/docker-mac-net-connect
-SETUP_IMAGE     := ghcr.io/achernev/docker-mac-net-connect/setup
+PROJECT         := github.com/kusiormarcin/docker-mac-net-connect
+SETUP_IMAGE     := ghcr.io/kusiormarcin/docker-mac-net-connect/setup
 VERSION         := $(shell git describe --tags)
 LD_FLAGS        := -X ${PROJECT}/version.Version=${VERSION} -X ${PROJECT}/version.SetupImage=${SETUP_IMAGE}
 
